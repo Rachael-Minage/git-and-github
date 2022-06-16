@@ -4,6 +4,6 @@ def reverse_number(number):
         rev = (rev*10)+(number%10)
         number = number//10
 
-    return rev,number
+    return rev
 
 print(reverse_number(98765))
